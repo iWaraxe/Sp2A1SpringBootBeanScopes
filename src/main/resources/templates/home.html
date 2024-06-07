@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bean Scopes</title>
+</head>
+<body>
+<h1>Spring Bean Scopes Example</h1>
+<p>Request Bean: <span th:text="${requestBean.name} + ' (ID: ' + ${requestBean.id} + ')'"></span></p>
+<p>Session Bean: <span th:text="${sessionBean.name} + ' (ID: ' + ${sessionBean.id} + ')'"></span></p>
+</body>
+</html>
